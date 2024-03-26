@@ -1,8 +1,13 @@
+import Footer from "./Footer";
+import Header from "./Header";
+
+
 function App() {
 	return (
 		<>
-			<h1 className="text-3xl mb-3 text-blue-800">Info Site</h1>
-			<p>this is a test</p>
+		<Header />
+			<p>Welcome to this site</p> <hr />
+			<Footer />
 		</>
 	);
 }
